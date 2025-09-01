@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1>IT PORTFOLIO 💻</h1>
+      <ul>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introduction Section -->
+  <section id="intro" class="hero">
+    <img src="https://lh3.googleusercontent.com/rd-saves/AA8Ys25SWKC4bHC485OyNeSUMiYKY_XhQGucB3X7ifgjzcOEqFKrB-aPk7u5F3tzpazT4aTEvIb1z8H_o-R50Vh2mmDH0M8Ikqwx3NLahReZH8AAAD1qQ9RooYFP91boaKyMcEHaKKvt7wT2wYqYgn1AcjbZao9-toAHqp7ACOyP3llokWFPmCairFbitElLJNn3ChDyjDbspja2wvImZ02Yy1LoHPaF_ohJXTsyNMHldkV-KzhjvprNBeabWlbZm1uQPjwaIIvS3Yz9ieHqGRW3TCW4XcKRrzJre7SKnT6acjKBo1TXg6th6ctKyeOpqCqHWsdqMyVqGmLhvT4qEadOqAsTj3Ss7Khltrh0Y02vhwLmN9T2GKBUeHJJV2HcIrIECuyOU_KFz-YjAaR6i0Cm95nn8wiI6zLnrq3Gr6z1e8l1Ec5pqF9bdZ81vckMW8VQrHRuGvg26cHFNr5TEjKAU6fwTDl2ZK0_kPUw9vt1EP2-uJaCaNf8G7owsrC6a4zQsOKII2wSqlGmK6mvfBQHWSHauwTjyIIYSXVWz3TlIi0QdRoC2yFTuGZNPc-eQrHQtzPbzBEGPQQcrQeooWSixhu2k531En9NnxvGZ7INsoP8i7vWqKGHUZY35PDlJCDom7pP6S56F-0hR2t5DknqZRwYhOF8lu0W5x9CKjR8QuKtoy0pDAicDK7Ryk6g9pPvivOc8woF39XaRx2QXWGZYPVToNg91lQd6CDFVu7XJlJGmpVn_nLzQO_inBeXf3WG3RfOA1G03DsJkouWF9X6r3QgUbUxjwE0A-eYxlNrgklhcPNUq7EYlk2FIbAJ-6KHCKtwBMzpdtDxo6ZnZyNe0jS1zuo8dbZRHlfJohvUnC-lytFDTEwjnPhGigtu3O9S5ysLsHYpqoFT4dmWBSujrwbk6EBwohwty1MkYdTDklmLc0lYJe91QebxPOOLFCDqfupTN12bmw3kz4u6n_KUXqMbFRW0INeHQbnu30_a3bZVSRK1kFFT_cotWK9rVAc3xixDk9hD48f3pMfBxzwOGfwiDVWnSNenjDqebHBLpFcRX2folKi5xsAKMqxPErz8ck3Zi1zQee8Lcc3l9l8cK-iVYI_bcgfZ4LOj6qYiktUj1o6QQenPaIISkBESp_xCKZk=s647-w328-h647-n-k" alt="My Photo" class="profile-pic">
+    <h2>Hello, I'm <span class="highlight"> V.RAJESWARI</span></h2>
+    <p>A passionate IT student learning Web Development 🚀</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am an IT student interested in web development, networking, and databases.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Networking</li>
+      <li>Database</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">Digital web page</div>
+    <div class="card">To-Do App</div>
+    <div class="card">Image Slider</div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Rajeswari | Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f0f4f8;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+.hero .highlight {
+  color: yellow;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+}
+.card {
+  background: #fff;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Form */
+form input, form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+button {
+  background: #222;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: #444;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+// Smooth scrolling for navigation
+document.querySelectorAll("nav a").forEach(link => {
+  link.addEventListener("click", e => {
+    e.preventDefault();
+    document.querySelector(link.getAttribute("href")).scrollIntoView({
+      behavior: "smooth"
+    });
+  });
+});
+
+// Contact form functionality
+document.getElementById("contactForm").addEventListener("submit", e => {
+  e.preventDefault();
+  alert("Your message has been sent successfully!");
+});
